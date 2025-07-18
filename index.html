@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div class="mode-buttons">
+      <button onclick="setMode('single')">Single Player</button>
+      <button onclick="setMode('two')">Two Player</button>
+    </div>
+    <div class="board" id="board"></div>
+    <div class="status" id="status">Choose a mode to start</div>
+    <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+  </div>
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
